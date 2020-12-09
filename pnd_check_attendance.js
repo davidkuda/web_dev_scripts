@@ -7,7 +7,7 @@
 let names = [];
 
 const is_present = (name) => {
-	return document.body.parentElement.innerHTML.includes(name)
+	return document.body.innerHTML.includes(name)
 };
 
 const print_group_members = (group) => {
